@@ -1,7 +1,7 @@
 <script lang="ts">
-  import favicon from "#lib/assets/favicon.svg";
-  import type { LayoutProps } from "./$types";
-  import "../styles/global.css";
+  import favicon from '#lib/assets/favicon.svg';
+  import type { LayoutProps } from './$types';
+  import '../styles/global.css';
 
   let { children }: LayoutProps = $props();
 </script>

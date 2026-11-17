@@ -1,0 +1,9 @@
+{
+  "svelte": true,
+  "singleQuote": true,
+  "printWidth": 100,
+  "sortTailwindcss": {
+    "stylesheet": "./src/styles/global.css",
+    "functions": ["clsx", "cn", "cva"]
+  }
+}
