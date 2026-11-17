@@ -5,10 +5,10 @@
     "baseColor": "neutral"
   },
   "aliases": {
-    "components": "#lib/components",
-    "utils": "#lib/utils",
-    "ui": "#lib/components/ui",
-    "hooks": "#lib/hooks",
+    "components": "#lib/share/components",
+    "utils": "#lib/share/utils",
+    "ui": "#lib/share/components/ui",
+    "hooks": "#lib/share/hooks",
     "lib": "#lib"
   },
   "typescript": true,
