@@ -14,6 +14,9 @@ importers:
       '@fontsource-variable/sora':
         specifier: ^5.3.0
         version: 5.3.0
+      '@tanstack/svelte-query':
+        specifier: ^6.4.3
+        version: 6.4.3(svelte@5.57.3)
     devDependencies:
       '@lucide/svelte':
         specifier: ^1.73.0
@@ -595,6 +598,14 @@ packages:
     resolution: {integrity: sha512-BCNiY0a1ZjdOHVqw7kyb7U72BwfMF3dfUuN+tQsLWky/J5JOI/r7abibglXfygrZhVO/3u3V+E25kkKTeMkXaQ==}
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
+
+  '@tanstack/query-core@5.108.0':
+    resolution: {integrity: sha512-X9zJUtEV/0D2q9pmGS/Bza8S4bNovSBhZOtdhtu0fzsHwizC6C+Eh/q5CX3MQBchsRMrirWVQmv7Fp4OStzV9g==}
+
+  '@tanstack/svelte-query@6.4.3':
+    resolution: {integrity: sha512-bGQWKr2qYdfcMOsmUJicc3+Po3GIxa92P8gU0oR21UuaMMgWI7AkH57z/hMZV8exTTed/u3r+goxBAz9qM9UYw==}
+    peerDependencies:
+      svelte: ^5.25.0
 
   '@tybys/wasm-util@0.10.5':
     resolution: {integrity: sha512-dOGOPxlaNV+G046mZzN+9C0dAcQZeSKcXiVaM0TYy/LM4ttTmgSBDxYfovcYI8Em3+eAbiAYpvWLOv8+ZVRJKA==}
@@ -1290,6 +1301,13 @@ snapshots:
       '@tailwindcss/oxide': 4.3.5
       tailwindcss: 4.3.5
       vite: 8.3.8(jiti@2.7.0)
+
+  '@tanstack/query-core@5.108.0': {}
+
+  '@tanstack/svelte-query@6.4.3(svelte@5.57.3)':
+    dependencies:
+      '@tanstack/query-core': 5.108.0
+      svelte: 5.57.3
 
   '@tybys/wasm-util@0.10.5':
     dependencies:
