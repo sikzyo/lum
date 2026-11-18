@@ -5,6 +5,8 @@ This file documents changes to Lum using the
 
 ## [Unreleased]
 
+## [0.0.1] - 2026-11-18
+
 ### Added
 
 - Initial project setup with SvelteKit, Svelte, TypeScript, Vite, and pnpm, including a favicon, `robots.txt`, and development and build instructions.
