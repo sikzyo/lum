@@ -5,6 +5,8 @@ This file documents changes to Lum using the
 
 ## [Unreleased]
 
+## [0.0.1] - 2026-11-18
+
 ### Added
 
 - Initial project setup with SvelteKit, Svelte, TypeScript, Vite, and pnpm, including a favicon, `robots.txt`, and development and build instructions.
@@ -15,6 +17,8 @@ This file documents changes to Lum using the
 - Oxfmt and Oxlint, with `fmt` and `lint` scripts.
 - Add the `NoWeather.svelte` to indicate that there are no saved cities.
 - Use `NoWeather` component on the default page.
+- Added shared button, input, textarea, and input group components.
+- Added a city search field with a search icon in the home page footer.
 
 ### Changed
 
@@ -23,6 +27,7 @@ This file documents changes to Lum using the
 - Made Sora the default site font.
 - Moved the favicon and shared utilities to `src/lib/share/` and updated the shadcn-svelte aliases for components, utilities, UI components, and hooks.
 - Applied Oxfmt formatting to configuration files, source code, and global styles.
+- Set the focus ring color to Iris from the active Rosé Pine palette.
 
 ### Removed
 

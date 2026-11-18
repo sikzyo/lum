@@ -1,4 +1,5 @@
 <script lang="ts">
+  import CitySearch from '#lib/modules/CitySearch/CitySearch.svelte';
   import NoWeather from '#lib/modules/WeatherCards/NoWeather.svelte';
 </script>
 
@@ -8,6 +9,6 @@
 <section class="flex grow flex-col items-center justify-center">
   <NoWeather />
 </section>
-<footer>
-  <p>Barra de búsqueda</p>
+<footer class="flex justify-center">
+  <CitySearch />
 </footer>
