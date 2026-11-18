@@ -26,7 +26,6 @@ This file documents changes to Lum using the
 - Moved the favicon and shared utilities to `src/lib/share/` and updated the shadcn-svelte aliases for components, utilities, UI components, and hooks.
 - Applied Oxfmt formatting to configuration files, source code, and global styles.
 - Set the focus ring color to Iris from the active Rosé Pine palette.
-- Downgraded `tailwind-variants` from 4.0.2 to 3.3.1.
 
 ### Removed
 
