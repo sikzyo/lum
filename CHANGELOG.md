@@ -13,6 +13,8 @@ This file documents changes to Lum using the
 - shadcn-svelte configuration with base styles, dark mode support, animations via `tw-animate-css`, Lucide icons, and utilities for component classes and variants.
 - Rosé Pine Dawn and Rosé Pine palettes for the light and dark themes.
 - Oxfmt and Oxlint, with `fmt` and `lint` scripts.
+- Add the `NoWeather.svelte` to indicate that there are no saved cities.
+- Use `NoWeather` component on the default page.
 
 ### Changed
 
