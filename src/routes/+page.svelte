@@ -1,6 +1,6 @@
 <script lang="ts">
-  import CitySearch from '#lib/modules/CitySearch/CitySearch.svelte';
-  import NoWeather from '#lib/modules/WeatherCards/NoWeather.svelte';
+  import CitySearch from '#lib/features/CitySearch/CitySearch.svelte';
+  import NoWeather from '#lib/features/WeatherCards/NoWeather.svelte';
 </script>
 
 <header class="font-manrope text-3xl font-bold">
