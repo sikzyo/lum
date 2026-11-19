@@ -5,6 +5,22 @@ This file documents changes to Lum using the
 
 ## [Unreleased]
 
+## [0.0.2] - 2026-11-19
+
+### Added
+
+- Add `@tanstack/svelte-query`
+
+### Changed
+
+- Rename folder `modules/` for `features/`
+- Use Rosé Pine theme colors for backgrounds, text, muted text, destructive actions, borders, and focus rings in light and dark modes.
+- Format shared button, input, input group, and textarea components.
+
+### Fixed
+
+- Correct the `CitySearch` and `NoWeather` imports on the home page after moving them to `features/`.
+
 ## [0.0.1] - 2026-11-18
 
 ### Added
