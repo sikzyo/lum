@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CitySearch from '#lib/features/CitySearch/CitySearch.svelte';
+  import { CitySearch } from '#lib/features/CitySearch/index.ts';
   import NoWeather from '#lib/features/WeatherCards/NoWeather.svelte';
 </script>
 
