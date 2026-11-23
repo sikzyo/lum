@@ -1,10 +1,9 @@
-export function debounce<T>(getValue: () => T, time: number = 400) {
+export function debounce<T>(getValue: () => T, delay: number = 400) {
   let value = $state(getValue());
 
   $effect(() => {
-    const debounceValue = getValue();
-    const timer = setTimeout(() => (value = debounceValue), time);
-
+    const currentValue = getValue();
+    const timer = setTimeout(() => (value = currentValue), delay);
     return () => clearTimeout(timer);
   });
 
